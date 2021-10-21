@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.toggle-btn{
+    position: absolute;
+    left:10%;
+    top: 15px;
+}
+.toggle-btn span{
+    display: block;
+    background-color: red;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+#sidebar h2{
+    text-align: center;
+    margin-top: 15px;
+}
+.shop{
+    position: absolute;
+    right:10%;
+    top: 15px;
+
+}
+.header {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#services{
+    display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+   
+}
+#services .box{
+    border: 2px solid rgb(241, 231, 231);
+    border-radius:20px;
+    padding:12px;
+    margin: 6px 220px;
+    height: 120px;
+    margin-left: 10px;
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    
+}
+#services .box img{
+    height: 75px;
+   border-radius: 70px;
+   
+ }
+#services p{
+    color: rgb(173, 169, 166);
+    padding-top: 20px;
+    margin-left: 50px; 
+}
+#services hr{
+    margin-left:50px;
+}
+#services .box h4{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 15px 0;
+}
